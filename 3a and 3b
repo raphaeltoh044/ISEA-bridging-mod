@@ -1,0 +1,14 @@
+in 3a, i obtained a domain after going through the options and chose the amazon webservice route 53 as i was already using the amazon webservice ec2 for the instance
+using route 53, i made a domain but found it difficult to connect it to my instance
+i coould not encrypt it as well since i could not connect my domain to the instance
+
+in 3b, the lab went through scripting linux in server funcitons where i leanrt how to display hello bash world with the code:
+#!/bin/bash
+ # This is a bash comment 
+ echo "Hello Bash World!"
+
+and how to do calculations with wsl linux using the code:
+ a=10
+ b=5
+ c=$((a+b))
+ echo $c
