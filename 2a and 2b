@@ -1,0 +1,16 @@
+Through these lessons I have learnt about Total Cost of Ownership, also known as TCO
+covers all the cost of runnning the servers which could allow us to choose to: (examples)
+run servers in the cloud or run a data centre locally, employ workers or subcontract the work, choosing a brand as a laptop vendor
+alot of factors come into play when deciding and calculating the TCO
+
+Amazon webservices
+Amazon webservices has multiple tools that allow us to do a lot of things
+one such example would be the amazon EC2, where we can run a virtual machine
+forming the instance and starting it was quite easy on amazon webservice EC2
+
+Bash scripting
+bash scripting was a relatively quite easy, using basic codes to help calculate and display sentences
+bash script for display is :BASH
+#!/bin/bash
+echo "Hello, World!"
+Save and Exit:
