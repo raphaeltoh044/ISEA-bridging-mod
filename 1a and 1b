@@ -1,0 +1,16 @@
+1a installation of wsl linux was a relatively easy process, felt a little bit nervous to add a subsystem to my laptop as I was not sure how it would have affected my laptop.
+learnt to add a user01 and add password
+familiarised the wsl linux with a few commands from the lab exercises
+commands used:
+ps -e, followed by top, which showed the cpu threads and the usage of the memory
+ls, followed by ls -la, the difference between these 2 commands are how the files are shown, with ls -la showing user01 while the other does not
+sudo apt install gedit, gedit testfile, nano testfile and touch testfile, the difference between the 2 would be gedit opens a window to edit the file while nano does not
+cat testfile and less testfile, the difference being how the content is displayed
+cp and mv testfile, where it felt like there was no visible difference between the 2.
+uname -a and lsb_release -a, where both showed different information such as ditributor id, descriptiopon , etc
+hostnamectl, showing information of the host such as static hostname, chassis, os, architecture, etc
+whoami and add user and  whoami, which asks the wsl which user is currently using, adding another user and adding another user as a root user
+
+sudo apt update updates the wsl
+sudo apt install nginx-full installs the nginx webserver
+sudo apt install nmap and sudo apt install openssh-server was relatively easy to install
