@@ -6,9 +6,19 @@ in 3b, the lab went through scripting linux in server funcitons where i leanrt h
 #!/bin/bash
  # This is a bash comment 
  echo "Hello Bash World!"
+This would display the text "Hello Bash World!
 
 and how to do calculations with wsl linux using the code:
  a=10
  b=5
  c=$((a+b))
  echo $c
+This would display 15
+
+and another required usto modify the code to  
+#!/bin/bash
+ for ((i=0;i<10;i++)); 
+ do 
+   echo $i
+ done
+which displays all the numbers from 1 to 10 in each line
